@@ -7,7 +7,7 @@
     "start": "cross-env NODE_ENV=development webpack serve --open --config webpack.config.js --mode development",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --mode production"
   },
-  "author": "",
+  "author": "Yuriy Ulanov",
   "license": "ISC",
   "devDependencies": {
     "babel-loader": "^8.2.5",

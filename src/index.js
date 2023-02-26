@@ -4,7 +4,6 @@ import { App } from './components/App';
 
 import './index.css';
 
-console.log('PIXI', PIXI);
 window.PIXI = PIXI;
 
 export const app = new App();

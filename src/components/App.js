@@ -16,7 +16,6 @@ export class App {
   async setup() {
     const assets = await this.preloader.loadAssets();
     this.game = new Game(assets);
-    // this.game.setup();
     this.app.stage.addChild(this.game);
   }
 }

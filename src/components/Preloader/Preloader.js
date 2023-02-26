@@ -5,7 +5,6 @@ import { ASSETS_PATHS } from '../../config/assetsPaths';
 export class Preloader extends PIXI.Container {
   constructor() {
     super();
-    console.log('preloader created');
   }
 
   async loadAssets() {

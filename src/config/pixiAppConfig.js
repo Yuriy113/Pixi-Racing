@@ -5,5 +5,4 @@ export const pixiAppConfig = {
   height: SCREEN.HEIGHT,
   autoDensity: true,
   backgroundColor: 0x3023bb,
-  // resolution: getResolution(graphics),
 };
